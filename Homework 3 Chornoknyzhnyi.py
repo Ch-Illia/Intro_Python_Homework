@@ -30,5 +30,5 @@ print(new_str)
 ###################################
 # Задача 7
 my_str = str(input("Enter here:"))
-new_str = (my_str + my_str[::-1]) if len(my_str) < 5 else print(my_str)
+new_str = (my_str + my_str[::-1]) if len(my_str) < 5 else my_str
 print(new_str)
