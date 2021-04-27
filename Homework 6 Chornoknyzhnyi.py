@@ -23,7 +23,7 @@ print(new_list)
 # Задание №3
 # Дан список строк my_list.
 # Создать новый список,
-# в который поместить элементы из my_list в которых есть символ - буква "a" на любом месте.
+# в который поместить элементы из my_list в которых буква "a" на любом месте.
 my_list = ['alt', 'qwe', 'acc', 'wasd', 'atl', 'rty', 'abs', 'ybn', 'rnp', 'asd']
 newlist = [newlist for newlist in my_list if "a" in newlist]
 print(newlist)
